@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .titlebar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .titleimage {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  .menubar {
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+  }
+  
+  .menu-btn, .menu-btn1, .menu-btn2 {
+    padding: 5px 10px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .menu-items {
+    display: none;
+    background-color: #666;
+  }
+  
+  .menu-btn:hover .menu-items, .menu-btn1:hover .menu-items, .menu-btn2:hover .menu-items {
+    display: block;
+  }
+  
