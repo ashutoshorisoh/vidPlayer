@@ -20,7 +20,7 @@ const Header = ({ onVideoInput, handleSpeedChange, handleVolumeChange, currentSp
   return (
     <header className="bg-gray-800 text-white py-4 flex flex-col items-center">
       <div className="flex items-center space-x-3">
-        <img src="src\Component\media.png" alt="logo" className="h-12" />
+        <img src="src\Component\media.png" alt="logo" className="h-12"  />
         <h1 className="text-xl font-bold">MediaPlayer</h1>
       </div>
 
